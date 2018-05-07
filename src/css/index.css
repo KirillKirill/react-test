@@ -1,0 +1,157 @@
+.App {
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.catalogHeader {
+    font-style: italic;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.searchBar {
+    display: flex;
+    align-items: center;
+}
+
+.searchBar label {
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.searchBar input[type="text"] {
+    width: 230px;
+}
+
+main {
+    display: flex;
+    justify-content: space-between;
+}
+
+.songs {
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.songs form {
+    align-self: flex-end;
+}
+
+.songs ul {
+    width: 100%;
+}
+
+.songs ul li {
+    padding: 20px;
+    font-size: 17px;
+}
+
+.songs ul li input[type="checkbox"] {
+    margin: 0 40px 0 10px;
+}
+
+.list-group-item button {
+    width: 35px;
+    height: 35px;
+    border-radius: 3px;
+    border-width: 1px;
+    background: #fff;
+    border-color: #f6f6f6;
+}
+
+.songs .list-group-item button {
+    float: right;
+}
+
+.list-group-item button:hover {
+    background: #dfdfdf;
+    border-color: #dfdfdf;
+}
+
+.albums {
+    width: 39%;
+}
+
+.albums ul li {
+    cursor: pointer;
+}
+
+.singleAlbum {
+    padding: 0 20px;
+    font-size: 15px;
+    font-style: italic;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.RemoveAlbum{
+    font-style: normal;
+    font-size: 16px;
+    padding: -2px;
+}
+
+.albumItem {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 32px;
+}
+
+.singleAlbum button{
+    width: 25px;
+    height: 25px;
+    padding: 0;
+    border-radius: 3px;
+    border-width: 1px;
+    background: #fff;
+    border-color: #f6f6f6;
+}
+
+.singleAlbum button:hover{
+    background: #dfdfdf;
+    border-color: #dfdfdf;
+}
+
+.editSong {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.editControls {
+    align-self: flex-end;
+}
+
+.editControls button {
+    margin: 0 10px;
+    background: #f6f6f6;
+    border: 1px solid #e0e0e0;
+}
+
+.editSongForm {
+    width: 100%;
+    margin: 20px;
+    padding-right: 30px;
+}
+
+.editSongForm input[type="text"]{
+    width: 300px;
+    margin-bottom: 20px;
+}
+
+.editSongForm textarea {
+    height: 300px;
+    margin-top: 15px;
+    resize: none;
+}
+

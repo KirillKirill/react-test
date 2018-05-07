@@ -1,0 +1,26 @@
+{
+  "albums":[
+    {"value":"Album1",
+    "singer":"Singer1",
+    "year":"2000"},
+    {"value":"Album2",
+      "singer":"Singer2",
+      "year":"2010"},
+    {"value":"Album3",
+      "singer":"Singer3",
+      "year":"2018"}
+  ],
+  "songs":[
+    {"album":"Album1","value":"song1","description":"Description", "songLength":"100"},
+    {"album":"Album1","value":"song2","description":"Description", "songLength":"100"},
+    {"album":"Album1","value":"song3","description":"Description", "songLength":"100"},
+    {"album":"Album1","value":"song4","description":"Description", "songLength":"100"},
+    {"album":"Album1","value":"song5","description":"Description", "songLength":"100"},
+    {"album":"Album2","value":"song1","description":"Description", "songLength":"100"},
+    {"album":"Album2","value":"song2","description":"Description", "songLength":"100"},
+    {"album":"Album2","value":"song3","description":"Description", "songLength":"100"},
+    {"album":"Album3","value":"song1","description":"Description", "songLength":"100"},
+    {"album":"Album3","value":"song2","description":"Description", "songLength":"100"},
+    {"album":"Album3","value":"song3","description":"Description", "songLength":"100"}
+  ]
+}
